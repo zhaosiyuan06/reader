@@ -1,0 +1,7 @@
+<view class="container">
+  <image class="welcome-icon" src="/images/icon.jpg"></image>
+  <text class="welcome-name">Hello，七月</text>
+  <view class="moto-container" bindtap='TabPost'>
+    <text class="welcome-p">开启小程序之旅</text>
+  </view>
+</view>

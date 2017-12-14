@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/posts/post",
+    "pages/posts/post-detail/post-detail",
+    "pages/welcome/welcome"
+   
+    
+  ],
+  "window": {
+   "navigationBarBackgroundColor": "#405f80",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "Welcome引导页",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light"
+  }
+}

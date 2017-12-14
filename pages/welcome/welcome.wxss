@@ -1,0 +1,34 @@
+page{
+  background:#b3d4db;
+  height: 100%;
+}
+.welcome-icon{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+  margin-top: 50rpx;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.welcome-name{
+  font-size: 32rpx;
+  font-weight: bold;
+  margin-top: 100rpx;
+}
+.welcome-p{
+  font-size: 22rpx;
+  font-weight: bold;
+  color: #405f80;
+  line-height: 80rpx; 
+}
+.moto-container{
+  border: 1px solid #405f80;
+  width: 200rpx;
+  height: 80rpx;
+  border-radius: 5rpx;
+  text-align: center;
+  margin-top: 200rpx;
+}
