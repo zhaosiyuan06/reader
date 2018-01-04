@@ -1,4 +1,5 @@
 var postsData = require("../../../data/posts-data.js");
+var app=getApp();
 Page({
   onLoad: function (options) {
     var postid = options.id;
@@ -22,7 +23,34 @@ Page({
       postsCollected[postid] = false;
       wx.setStorageSync('posts_collected', postsCollected);
     }
+    //间听音乐状态，改变并保留音乐状态
+    if (app.globalData.g_isPlayingMusic && app.globalData.g_currentMusicPostId === postid){
+      this.setData({
+        isPlayingMusic:true
+      })
+      
+    }
+    this.setAudioMonitor();
   },
+
+  setAudioMonitor:function(){
+  // 监听音乐播放与暂停
+  var that = this
+  wx.onBackgroundAudioPlay(function () {
+    that.setData({
+      isPlayingMusic: true
+    })
+    app.globalData.g_isPlayingMusic=true;
+    app.globalData.g_currentMusicPostId = that.data.currentPostid;
+  }),
+    wx.onBackgroundAudioPause(function () {
+      that.setData({
+        isPlayingMusic: false
+      })
+      app.globalData.g_isPlayingMusic = false
+      app.globalData.g_currentMusicPostId = null
+    })
+},
 
   onColletionTap: function (event) {
     var postsCollected = wx.getStorageSync("posts_collected");
