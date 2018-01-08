@@ -10,7 +10,7 @@
 ![image](https://github.com/zhaosiyuan06/reader/blob/master/images/xiaoguotu/%E6%96%87%E7%AB%A0%E8%AF%A6%E6%83%85.png)<br>
 
 #### 电影首页：<br>
-![image](https://github.com/zhaosiyuan06/reader/blob/master/images/xiaoguotu/%E7%94%B5%E5%BD%B1%E9%A6%96%E9%A1%B5.PNG）<br>
+![image](https://github.com/zhaosiyuan06/reader/blob/master/images/xiaoguotu/%E7%94%B5%E5%BD%B1%E9%A6%96%E9%A1%B5.PNG)<br>
 
 #### 电影搜索：<br>
 ![image](https://github.com/zhaosiyuan06/reader/blob/master/images/xiaoguotu/%E7%94%B5%E5%BD%B1%E6%90%9C%E7%B4%A2.PNG）<br>
