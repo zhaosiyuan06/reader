@@ -17,8 +17,8 @@
 ![image](https://github.com/zhaosiyuan06/reader/blob/master/images/xiaoguotu/%E7%94%B5%E5%BD%B1%E6%90%9C%E7%B4%A22.PNG)<br>
 
 #### 电影详情：<br>
-![image](https://github.com/zhaosiyuan06/reader/blob/master/images/xiaoguotu/%E7%94%B5%E5%BD%B1%E8%AF%A6%E6%83%85.PNG）<br>
-![image](https://github.com/zhaosiyuan06/reader/blob/master/images/xiaoguotu/%E7%94%B5%E5%BD%B1%E8%AF%A6%E6%83%852.PNG）<br>
+![image](https://github.com/zhaosiyuan06/reader/blob/master/images/xiaoguotu/%E7%94%B5%E5%BD%B1%E6%90%9C%E7%B4%A2.PNG）<br>
+![image](https://github.com/zhaosiyuan06/reader/blob/master/images/xiaoguotu/%E7%94%B5%E5%BD%B1%E6%90%9C%E7%B4%A22.PNG）<br>
 
 #### 其他页：<br>
 ![image](https://github.com/zhaosiyuan06/reader/blob/master/images/xiaoguotu/Top250.PNG）<br>
