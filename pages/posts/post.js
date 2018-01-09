@@ -18,12 +18,20 @@ Page({
       url: 'post-detail/post-detail?id='+postId,
     })
   },
- onSwiperitemtap: function (event) {
-    var postId = event.currentTarget.dataset.postid;
-    // console.log(postId)
+  onSwiperTap:function(event){
+    var postId = event.target.dataset.postid;
+    // target指的是当前点击的组件，currentTarget指的是事件捕获的组件
+    // target这里指的是Image，而currentTarget指的是swiper
     wx.navigateTo({
       url: 'post-detail/post-detail?id=' + postId,
     })
-  }
+  },
+//  onSwiperitemtap: function (event) {
+//     var postId = event.currentTarget.dataset.postid;
+//     // console.log(postId)
+//     wx.navigateTo({
+//       url: 'post-detail/post-detail?id=' + postId,
+//     })
+//   }
 
 })
